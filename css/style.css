@@ -1,0 +1,241 @@
+body {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  min-width: 1200px;
+  margin: 0 auto;
+  background: url("../img/bg-1.png") no-repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav li {
+  display: inline-block;
+}
+nav li:nth-child(2) {
+  margin-left: 465px;
+  margin-right: 465px;
+}
+
+nav .top-words {
+  color: #43a9ff;
+  font-size: 48px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+nav .top-words-second {
+  color: #c0c5c9;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.wrapper-header h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+}
+.wrapper-header p {
+  color: #c0c5c9;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+}
+.wrapper-header .btn {
+  color: #43a9ff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.about p {
+  color: #c0c5c9;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.about h2 {
+  font-size: 48px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.about h3 {
+  font-size: 18px;
+}
+.about .list p {
+  font-size: 14px;
+}
+.about .btn {
+  color: #43a9ff;
+  font-weight: 700;
+  font-size: 14px;
+}
+.about li {
+  list-style: none;
+}
+.about .wrapper-about {
+  text-align: center;
+}
+
+.about-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+nav li:nth-child(1) {
+  position: relative;
+  top: -20%;
+  width: 25px;
+  height: 21px;
+  background: url("../img/menu-icon.svg") no-repeat;
+  background-size: 30%;
+  background-position: 50% 50%;
+  font-size: 0;
+  padding: 18px;
+  border-radius: 30px;
+  box-shadow: 0 0 65px 0 #dae5ef;
+}
+nav li:nth-child(2) {
+  position: relative;
+  top: -15%;
+  padding-top: 80px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 89px;
+  border-radius: 0 0 250px 250px;
+  box-shadow: 0 0 65px 0 rgba(218, 229, 239, 0.55);
+}
+nav li:nth-child(3) {
+  position: absolute;
+  top: 25%;
+  width: 25px;
+  height: 21px;
+  background: url("../img/search-icon.svg") no-repeat;
+  background-size: 30%;
+  background-position: 50% 50%;
+  font-size: 0;
+  padding: 18px;
+  border-radius: 30px;
+  box-shadow: 0 0 65px 0 #dae5ef;
+}
+
+.wrapper-header {
+  position: relative;
+}
+.wrapper-header h1 {
+  margin: 0;
+  padding: 0;
+  padding-top: 172px;
+}
+.wrapper-header p {
+  margin: 0;
+  padding: 0;
+  padding-top: 26px;
+}
+.wrapper-header button {
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  margin-top: 84px;
+  padding: 21px 40px;
+  border-radius: 22px;
+  box-shadow: 0 0 35px 0 rgba(218, 229, 239, 0.35);
+  border: none;
+  background-color: white;
+}
+
+.about {
+  margin-top: 925px;
+}
+
+.wrapper-about p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 22px;
+}
+.wrapper-about h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.about-list {
+  margin: 0;
+  padding: 0;
+  padding-top: 184px;
+}
+.about-list li {
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+.about-list li:nth-child(1):before {
+  content: "";
+  position: absolute;
+  display: block;
+  background: url("../img/about-1.svg") no-repeat;
+  width: 50px;
+  height: 50px;
+  top: -50%;
+  left: 45%;
+  z-index: 3;
+}
+.about-list li:nth-child(2):before {
+  content: "";
+  position: absolute;
+  display: block;
+  background: url("../img/about-2.svg") no-repeat;
+  width: 50px;
+  height: 50px;
+  top: -50%;
+  left: 45%;
+  z-index: 3;
+}
+.about-list li:nth-child(3):before {
+  content: "";
+  position: absolute;
+  display: block;
+  background: url("../img/about-3.svg") no-repeat;
+  width: 50px;
+  height: 50px;
+  top: -50%;
+  left: 45%;
+  z-index: 3;
+}
+.about-list li:nth-child(4):before {
+  content: "";
+  position: absolute;
+  display: block;
+  background: url("../img/about-4.svg") no-repeat;
+  width: 50px;
+  height: 50px;
+  top: -50%;
+  left: 45%;
+  z-index: 3;
+}
+
+.about {
+  position: relative;
+}
+.about button {
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  padding: 21px 40px;
+  border-radius: 22px;
+  box-shadow: 0 0 35px 0 rgba(218, 229, 239, 0.35);
+  border: none;
+  background-color: white;
+  margin-top: 95px;
+}
+
+/*# sourceMappingURL=style.css.map */
